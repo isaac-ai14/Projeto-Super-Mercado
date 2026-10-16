@@ -1,6 +1,6 @@
 # Projeto de Banco de Dados - Supermercado
 
-Projeto prático desenvolvido após a conclusão do curso de Banco de Dados, com o objetivo de aplicar conceitos de modelagem relacional, criação de tabelas, restrições (`PRIMARY KEY`, `FOREIGN KEY`), inserção de dados e consultas SQL em um cenário real de um supermercado.
+Projeto pessoal prático desenvolvido após a minha conclusão do curso de Banco de Dados SQL do Zero ao Avançado feito pelo Andre Iacono, com o objetivo de aplicar conceitos de modelagem relacional, criação de tabelas, restrições (`PRIMARY KEY`, `FOREIGN KEY`), inserção de dados e consultas SQL em um cenário real de um supermercado.
 
 ---
 
@@ -10,7 +10,7 @@ O projeto está dividido em três arquivos principais:
 
 1. **`estruturas.sql`** — Contém os comandos `CREATE TABLE` para a criação do banco de dados `supermercado` e de todas as suas tabelas (`categorias`, `fornecedores`, `produtos`, `funcionarios`, `clientes`, `vendas` e `itens_venda`), incluindo os relacionamentos e chaves estrangeiras.
 2. **`inserts.sql`** — Contém os dados fictícios gerados por IA para popular as tabelas (10 registros para cada tabela), garantindo a integridade dos dados para testes.
-3. **`queries.sql`** — Consultas SQL focadas em relatórios essenciais de negócio (histórico de vendas por cliente, faturamento por funcionário e curva de produtos mais vendidos).
+3. **`queries.sql`** — Consultas SQL focadas em relatórios essenciais de negócio (histórico de vendas por cliente, faturamento por funcionário e produtos mais vendidos).
 
 ---
 
